@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Indonesian Heroes</string>
+    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="from">Asal</string>
+    <string name="txt_list">List</string>
+    <string name="txt_grid">Grid</string>
+    <string name="txt_with_cardview">With CardView</string>
+    <string name="txt_favorite">Favorite</string>
+    <string name="txt_share">Share</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Aplikasi Cek Nilai</string>
+    <string name="txt_cek_nilai">Cek Nilai</string>
+    <string name="txt_masukan_nilai_siswa">Masukan Nilai Siswa</string>
+</resources>

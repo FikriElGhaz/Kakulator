@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp">
+
+    <TextView
+        android:id="@+id/tvNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1."
+        android:textColor="#292F3D"
+        android:textStyle="bold"
+        android:layout_marginEnd="11dp"
+        android:layout_centerVertical="true"/>
+
+    <RelativeLayout
+        android:layout_toEndOf="@id/tvNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_item">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fikri El"
+            android:textStyle="bold"
+            android:textColor="#292F3D"
+            android:layout_toStartOf="@id/ivPackage"/>
+
+        <TextView
+            android:id="@+id/tvReceipt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:textColor="#525B71"
+            android:text="No. Resi: GT2J93RQ5"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/tvName"
+            android:layout_toStartOf="@id/ivPackage"
+            />
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:textColor="#7B859E"
+            android:text="2,3km • Jl. Kenanga no.7, Mojolangu, Malang"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/tvReceipt"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_toStartOf="@id/ivPackage"
+            />
+
+        <ImageView
+            android:id="@+id/ivPackage"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/paket1"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/bg_image"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

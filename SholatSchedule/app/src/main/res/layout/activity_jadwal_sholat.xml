@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".JadwalSholatActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="jonggol"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shubuh"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/shubuh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="05.00"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dzuhur"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/dzuhur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="12.00"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ashar"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/ashar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="15.00"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Magrib"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/magrib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="18.00"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Isya"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/isya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="19.00"
+        android:padding="8dp"/>
+
+</LinearLayout>
