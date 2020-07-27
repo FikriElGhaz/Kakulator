@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouserView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:fillColor="#ffffff"
+        app:pageColor="#333333"
+        app:radius="6dp"
+        app:slideInterval="3000"
+        app:strokeColor="#FF777777"
+        app:strokeWidth="1dp" />
+
+    <TextView
+    android:layout_marginLeft="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/txt_4_mazhab_fiqih"
+    android:textColor="#333333"
+    android:layout_marginTop="10dp"
+    />
+
+    <ListView
+        android:id="@+id/lvMazhab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

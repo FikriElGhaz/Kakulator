@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Kakulator</string>
+    <string name="nilai2">Nilai2</string>
+    <string name="nilai_1">Nilai 1</string>
+    <string name="plus">+</string>
+    <string name="mines">-</string>
+    <string name="kali">*</string>
+    <string name="bagi">/</string>
+    <string name="hapus">c</string>
+    <string name="kakulator">--- Kakulator ---</string>
+    <string name="hasil">Hasil</string>
+</resources>

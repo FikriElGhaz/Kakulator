@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Telepon Dan SMS</string>
+    <string name="telepon_dan_sms">Telepon dan SMS !</string>
+    <string name="masukan_nomer_telepon">Masukan Nomer Telepon</string>
+</resources>

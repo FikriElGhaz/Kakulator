@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/kakulator"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <EditText
+        android:id="@+id/nilai1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Masukan Angka"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/nilai2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Masukan Angka"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/colorPrimary"
+
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hasil"
+        android:layout_marginTop="35dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/tambah"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="@string/plus"
+            android:background="@drawable/skisdiiip"
+            android:textColor="@color/colorAccent2"
+            android:textSize="30dp"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/mines"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="@string/mines"
+            android:background="@drawable/skisdiiip"
+            android:textColor="@color/colorAccent2"
+            android:textSize="30dp"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/kali"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="@string/kali"
+            android:background="@drawable/skisdiiip"
+            android:textColor="@color/colorAccent2"
+            android:textSize="30dp"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/bagi"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="@string/bagi"
+            android:background="@drawable/skisdiiip"
+            android:textColor="@color/colorAccent2"
+            android:textSize="30dp"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/hapus"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="@string/hapus"
+            android:background="@drawable/skisdiiip"
+            android:textColor="@color/colorAccent2"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

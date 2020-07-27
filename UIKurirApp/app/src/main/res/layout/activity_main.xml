@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main1.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/assets_banner1"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:id="@+id/layoutOpening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat Pagi,"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:textStyle="bold"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ayo antar barang kamu dan raih pin"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poin kamu : 14300 "
+            android:textColor="#715C3D"
+            android:textSize="12sp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_poin"
+          />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="29dp"
+        android:layout_below="@id/layoutOpening">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Riwayat"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hari ini"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:background="@drawable/bg_tab"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hari Besok"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg_main"
+        android:layout_below="@id/layoutTab"
+        android:layout_marginTop="12dp"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket Express"
+            android:textColor="#292F3D"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="17dp"
+            tools:listitem="@layout/item_list_main"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAntar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Mulai Antar"
+        android:textColor="#ffffff"
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_button"
+        android:layout_alignParentBottom="true"/>
+    
+
+
+
+
+</RelativeLayout>

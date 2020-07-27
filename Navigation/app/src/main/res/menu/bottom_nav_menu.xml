@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_persegi_24dp"
+        android:title="@string/persegi" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_persigipanjang1_24dp"
+        android:title="@string/persegi_panjang" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_segitiga_24dp"
+        android:title="@string/segitiga" />
+
+    <item
+        android:id="@+id/navigation_smile"
+        android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+        android:title="@string/lingkaran" />
+
+</menu>

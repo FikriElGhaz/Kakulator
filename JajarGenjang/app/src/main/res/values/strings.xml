@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Luas Bangun Datar</string>
+    <string name="aplikasi_jajar_genjang">Luas Jajar Genjang</string>
+    <string name="hitung">Hitung</string>
+    <string name="masukan_tinggi">Masukan Tinggi</string>
+    <string name="masukan_alas">Masukan Alas</string>
+    <string name="hapus">Hapus</string>
+    <string name="segitiga">Luas Segitiga</string>
+    <string name="luas_persegi">Luas Persegi</string>
+    <string name="hasil">Hasil...</string>
+    <string name="masukan_sisi">Masukan Sisi</string>
+    <string name="pencari_luas_bangun_datar">Luas Bangun Datar</string>
+</resources>

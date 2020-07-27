@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="@drawable/bg_main">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pencari_luas_bangun_datar"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/terserah4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas Persegi"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/White"
+        android:background="@drawable/lengkung_button"
+        android:padding="25dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/terserah1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas Persegi Panjang"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/White"
+        android:background="@drawable/lengkung_button"
+        android:padding="25dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/terserah3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/segitiga"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:padding="25dp"
+        android:textColor="@color/White"
+        android:background="@drawable/lengkung_button"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/terserah2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aplikasi_jajar_genjang"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/White"
+        android:background="@drawable/lengkung_button"
+        android:padding="25dp"
+        android:textAllCaps="false"/>
+
+
+
+
+</LinearLayout>

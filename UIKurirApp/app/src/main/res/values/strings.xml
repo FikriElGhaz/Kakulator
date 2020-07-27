@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">UIKurirApp</string>
+
+    <string-array name="array_number">
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+        <item>4.</item>
+        <item>5.</item>
+        <item>6.</item>
+        <item>7.</item>
+    </string-array>
+
+    <string-array name="array_name">
+        <item>Fikri El</item>
+        <item>Ucok Lobleh</item>
+        <item>Budi Setiawan</item>
+        <item>Reynard Sidragon</item>
+        <item>Jamal Lu</item>
+        <item>Utiss Sss</item>
+        <item>Ijong Firdaus</item>
+
+    </string-array>
+
+    <string-array name="array_address">
+        <item>Jl. Spayol Gg.10, RT/RW 10/9, Cikarang, Bekasi </item>
+        <item>Jl. Paris Gg.10, RT/RW 10/9, Cikarang, Bekasi </item>
+        <item>Jl. Los Angles Gg.10, RT/RW 10/9, Cikarang, Bekasi </item>
+        <item>Jl. India Gg.10, RT/RW 10/9, Cikarang, Bekasi </item>
+        <item>Jl. Wuhan Gg.10, RT/RW 10/9, Cikarang, Bekasi</item>
+        <item>Jl. Pare Pare Gg.10, RT/RW 10/9, Cikarang, Bekasi</item>
+        <item>Jl. Kalteng Gg.10, RT/RW 10/9, Cikarang, Bekasi</item>
+    </string-array>
+
+    <string-array name="array_receipt">
+        <item>No. Resi: GT2J93RQ5</item>
+        <item>No. Resi: GT2J93RQ5</item>
+        <item>No. Resi: GT2J93RQ5</item>
+        <item>No. Resi: GT2J93RQ5</item>
+        <item>No. Resi: GT2J93RQ5</item>
+        <item>No. Resi: GT2J93RQ5</item>
+        <item>No. Resi: GT2J93RQ5</item>
+    </string-array>
+
+    <string-array name="array_image">
+        <item>https://2.bp.blogspot.com/-MQ2OzML37wk/WhYfR0PV2pI/AAAAAAAADLo/8-JsMrGkAgAA-B6mEPeNVi_6P5huce7lgCLcBGAs/s1600/Cara-dan-Tempat-Ambil-Paket-JNE-Jember.jpg</item>
+        <item>https://3.bp.blogspot.com/-ucNNbGcWqKk/WRMkUw8RpGI/AAAAAAAACsk/jIRvr2MRyGUDaGiZpZaSXdIcl7dZsO4mACLcB/s1600/Apakah-Perlu-Kode-POS-Kirim-di-JNE.jpg</item>
+        <item>https://2.bp.blogspot.com/-MQ2OzML37wk/WhYfR0PV2pI/AAAAAAAADLo/8-JsMrGkAgAA-B6mEPeNVi_6P5huce7lgCLcBGAs/s1600/Cara-dan-Tempat-Ambil-Paket-JNE-Jember.jpg</item>
+        <item>https://3.bp.blogspot.com/-ucNNbGcWqKk/WRMkUw8RpGI/AAAAAAAACsk/jIRvr2MRyGUDaGiZpZaSXdIcl7dZsO4mACLcB/s1600/Apakah-Perlu-Kode-POS-Kirim-di-JNE.jpg</item>
+        <item>https://2.bp.blogspot.com/-MQ2OzML37wk/WhYfR0PV2pI/AAAAAAAADLo/8-JsMrGkAgAA-B6mEPeNVi_6P5huce7lgCLcBGAs/s1600/Cara-dan-Tempat-Ambil-Paket-JNE-Jember.jpg</item>
+        <item>https://3.bp.blogspot.com/-ucNNbGcWqKk/WRMkUw8RpGI/AAAAAAAACsk/jIRvr2MRyGUDaGiZpZaSXdIcl7dZsO4mACLcB/s1600/Apakah-Perlu-Kode-POS-Kirim-di-JNE.jpg</item>
+        <item>https://2.bp.blogspot.com/-MQ2OzML37wk/WhYfR0PV2pI/AAAAAAAADLo/8-JsMrGkAgAA-B6mEPeNVi_6P5huce7lgCLcBGAs/s1600/Cara-dan-Tempat-Ambil-Paket-JNE-Jember.jpg</item>
+    </string-array>
+
+
+</resources>
