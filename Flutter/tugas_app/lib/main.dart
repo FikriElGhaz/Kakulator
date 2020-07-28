@@ -49,7 +49,7 @@ class _MyAppState extends State<MyApp> {
                 child: Card(
                   child: ListTile(
                     title: Text(
-                      'Rp 3.000',
+                      'Indomie',
                       textAlign: TextAlign.center,
                     ),
                   ),
@@ -58,10 +58,35 @@ class _MyAppState extends State<MyApp> {
               Padding(
                 padding: const EdgeInsets.all(30.0),
                 child: Text(
-                    'Indomie is produced by Indofood, the pioneer of instant noodles in Indonesia and is one of the largest instant noodles manufacturers in the world. Indomie comes in many varieties from the classic soup flavours such as Chicken, Vegetable, and Chicken Curry, to our most popular flavour Indomie Mi Goreng. Available in over 80 countries around the world such as Australia, New Zealand, USA, Canada, throughout Asia, Africa, Europe and Middle Eastern countries. With over 20 billion packs sold annually, it’s no wonder that Indomie is flavour, favoured by the world.'),
+                    'Indomie is produced by Indofood, the pioneer of instant noodles in Indonesia and is one of the largest instant noodles manufacturers in the world. Indomie comes in many varieties from the classic soup flavours such as Chicken, Vegetable, and Chicken Curry, to our most popular flavour Indomie Mi Goreng. '),
               ),
               Row(
-                children: <Widget>[CircleAvatar()],
+                children: <Widget>[
+                  Padding(
+                      padding: EdgeInsets.only(left: 30.0),
+                      child: CircleAvatar(
+                          backgroundImage: NetworkImage(
+                              'https://pbs.twimg.com/media/Eb77SbMWkAALuSY.jpg'))),
+                  Column(
+                    children: <Widget>[
+                      Padding(
+                        padding: EdgeInsets.only(left: 10.0),
+                        child: Image.network(
+                            'https://www.kreditpintar.com/wp-content/uploads/2019/07/gceoXx7gi.png',
+                            height: 50,
+                            width: 50.0),
+                      ),
+                      Padding(
+                          padding: EdgeInsets.only(
+                            left: 10.0,
+                          ),
+                          child: Text(
+                            '"Baguus Banget"',
+                            style: TextStyle(fontSize: 13.0),
+                          ))
+                    ],
+                  )
+                ],
               )
             ],
           )),
